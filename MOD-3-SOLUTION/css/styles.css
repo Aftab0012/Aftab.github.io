@@ -8,19 +8,19 @@ body {
 #header-nav{
 	border-radius: 0;
 	border: 0;
-	background-color: #ccbbcc;
+	background-color: #ff3384;
   height: px
 }
 
 .navbar-brand{
 	padding-top: 20px;
+  margin-bottom: 30px;
 }
 .navbar-brand h1{               
-	color: red; 
+	color: black; 
 	text-shadow: 1px 1px 1px ;
   margin-top: 0px;
   padding-top: 0px
-
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
   text-decoration: none;
@@ -29,7 +29,6 @@ body {
 
 #nav-list{                  
 	margin-top: 0px;
-
 }
 #nav-list a {
   color: #951C49;
@@ -51,6 +50,7 @@ margin-top:0px;
 /*collapsable navigation*/
 
 #collapsable-nav{
+
 	text-align: center;
 
 }
@@ -72,7 +72,13 @@ h2{
   margin-bottom: 25px;
   font-size: 25px
 }
+#kk{
 
+  margin-left: 20px;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+  
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -97,7 +103,7 @@ h2{
   margin-bottom: 50px;
 }
 #kk{
-  text-align: center;
+
   margin-left: 5px;
   font-size: 35px;
   margin-bottom: 40px;
