@@ -22,7 +22,7 @@ body {
   margin-top: 0px;
   padding-top: 0px
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
+.navbar-brand a:hover{
   text-decoration: none;
    color: yellow;
 }
@@ -88,19 +88,20 @@ h2{
     height: 50px;
   }
   .navbar-brand h1 { 
-    padding-top: 8px;
-    margin-left: 5px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-   padding-left: 2px;
-   margin-bottom: 2px;
+    padding-top: 10px;
+    margin-left: 0px;
+    text-shadow: 1px 1px 1px
+    font-size: 8vw; /* 1vw = 1% of viewport width */
+   padding-left: 0px;
+   margin-bottom: 0px;
   }
 
 #main-content{
   background-color: gray;
   padding-left: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 #kk{
 
@@ -109,3 +110,32 @@ h2{
   margin-bottom: 40px;
 }
   }
+@media (max-width: 400px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 1px;
+    height: 50px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 12px;
+    margin-left: 5px;
+    text-shadow: 1px 1px 1px;
+    font-size: 8vw; /* 1vw = 1% of viewport width */
+   padding-left: 0px;
+   margin-bottom: 2px;
+   color: yellow;
+
+  }
+  #main-content{
+  background-color: gray;
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#kk{
+
+  margin-left: 5px;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
